@@ -1,3 +1,4 @@
 pytest
 pytest-playwright
 requests
+playwright install-deps
