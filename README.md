@@ -34,6 +34,5 @@ pytest -v                       # all tests
 pytest -m smoke -v              # smoke only
 pytest -m api -v                # API only
 pytest tests/ui --headed        # watch the browser
-pytest tests/ui --browser firefox --browser webkit
 pytest --tracing retain-on-failure --screenshot only-on-failure
 ```
